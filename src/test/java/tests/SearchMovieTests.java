@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.given;
 import static java.lang.String.format;
 import static org.hamcrest.Matchers.equalTo;
 
-public class SearchMovieTests extends TestBase {
+public class SearchMovieTests extends Base {
 
     @Test
     void shouldFindMovie() {

@@ -5,7 +5,7 @@ import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import org.junit.jupiter.api.BeforeAll;
 
-public class TestBase {
+public class Base {
 
     @BeforeAll
     static void setup() {
