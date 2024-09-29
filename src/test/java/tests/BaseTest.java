@@ -9,7 +9,7 @@ public class BaseTest {
 
     @BeforeAll
     static void setup() {
-        RestAssured.baseURI = "https://movies-rating-service.herokuapp.com";
+        RestAssured.baseURI = "http://localhost:8080";
         RestAssured.useRelaxedHTTPSValidation();
         RestAssured.filters(
                 new RequestLoggingFilter(),
